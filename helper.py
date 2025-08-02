@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 import os
-import joblib
+import pickle
 
 def fillna(df:pd.DataFrame,cols:list,value):
     """
@@ -41,7 +41,8 @@ def label_encode(df:pd.DataFrame,cols:list):
     for col in cols:
         df[col]=le.fit_transform(df[col])
         filename=os.path.join(dump_path,f"label_encoder_{col}.pkl")
-        joblib.dump(le,filename)
+        with open(filename, 'wb') as f:
+            pickle.dump(le, f)  # Correct usage
     return df
 
 

@@ -3,3 +3,5 @@ numpy
 ipykernel
 openpyxl
 scikit-learn
+seaborn
+matplotlib
