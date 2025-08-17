@@ -1,11 +1,15 @@
-2025-08-02 14:29:04,911 Reading the files
-2025-08-02 14:29:05,102 Successfully loaded all the files !!
-2025-08-02 14:29:05,102 Starting Data processing
-2025-08-02 14:29:05,168 Data processing is completed !! 
-2025-08-02 14:29:05,247 All the pickle files have been saved in the Dependency folder successfully !!
-2025-08-02 14:29:05,262 Final training data has been successfully saved !!
-2025-08-02 14:29:05,262 Started loading test data
-2025-08-02 14:29:05,438 Successfully loaded the data !!
-2025-08-02 14:29:05,438 Started processing test data
-2025-08-02 14:29:05,705 Data processing on test data is successfully completed !!
-2025-08-02 14:29:39,818 final test data is successfully saved !!
+2025-08-17 20:46:29,976 Reading the files
+2025-08-17 20:46:30,108 Successfully loaded all the files !!
+2025-08-17 20:46:30,108 Starting Data processing
+2025-08-17 20:46:30,161 Data processing is completed !! 
+2025-08-17 20:46:30,243 All the pickle files have been saved in the Dependency folder successfully !!
+2025-08-17 20:46:30,258 Final training data has been successfully saved !!
+2025-08-17 20:46:30,259 Started loading test data
+2025-08-17 20:46:30,392 Successfully loaded the data !!
+2025-08-17 20:46:30,392 Started processing test data
+2025-08-17 20:46:30,539 Data processing on test data is successfully completed !!
+2025-08-17 20:47:02,355 final test data is successfully saved !!
+2025-08-17 20:47:02,355 Started training the model
+2025-08-17 20:47:25,418 successfully dumped the model to pickle file!
+2025-08-17 20:47:25,911 roc auc score is : 0.8628
+2025-08-17 20:47:25,911 name 'plt' is not defined
