@@ -1,6 +1,6 @@
-import test_data_data_processing
-import data_processing_pipeline_train
-import model_pipeline
+import pipelines.test_data_data_processing as test_data_data_processing
+import pipelines.data_processing_pipeline_train as data_processing_pipeline_train
+import pipelines.model_pipeline as model_pipeline
 
 
 def main():
