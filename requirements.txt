@@ -1,7 +1,8 @@
+seaborn
+matplotlib
 pandas
 numpy
 ipykernel
 openpyxl
 scikit-learn
-seaborn
-matplotlib
+imblearn
