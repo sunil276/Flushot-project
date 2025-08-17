@@ -46,6 +46,15 @@ def label_encode(df:pd.DataFrame,cols:list):
     return df
 
 
+def pickle_dump(file,name):
+    print("inside pickle dump")
+    dump_path=os.path.join(os.getcwd(),"dependency_files")
+    print("dump path")
+    filename=os.path.join(dump_path,f"{name}.pkl")
+    with open(filename,"wb") as f:
+        pickle.dump(file,f)
+
+
 
 
 
